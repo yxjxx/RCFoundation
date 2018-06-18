@@ -1,6 +1,0 @@
-framework module RCFoundation {
-  umbrella header "RCFoundation-umbrella.h"
-
-  export *
-  module * { export * }
-}
