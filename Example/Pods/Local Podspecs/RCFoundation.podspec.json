@@ -1,0 +1,22 @@
+{
+  "name": "RCFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of RCFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rico/RCFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rico": "ricoyangjing@didichuxing.com"
+  },
+  "source": {
+    "git": "https://github.com/rico/RCFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RCFoundation/Classes/**/*"
+}

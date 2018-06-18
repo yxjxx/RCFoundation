@@ -1,0 +1,16 @@
+PODS:
+  - RCFoundation (0.1.0)
+
+DEPENDENCIES:
+  - RCFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  RCFoundation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RCFoundation: 830b2937e43a811b37cee984e9f69b1fea3463a1
+
+PODFILE CHECKSUM: e732eb8474bab935a37785ddf16d242ae0b2feb9
+
+COCOAPODS: 1.3.1

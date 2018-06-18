@@ -13,6 +13,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    Class cls = NSClassFromString(@"RCViewController");
+    UIViewController *viewcontroller = [cls new];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewcontroller];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
