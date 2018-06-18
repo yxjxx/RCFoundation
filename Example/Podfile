@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'RCFoundation_Example' do
   pod 'RCFoundation', :path => '../'
+  pod 'RCDebugKit', :path => '../RCDebugKit/'
 
   target 'RCFoundation_Tests' do
     inherit! :search_paths

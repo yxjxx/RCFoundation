@@ -337,11 +337,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RCFoundation_Example/Pods-RCFoundation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RCFoundation/RCFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/RCDebugKit/RCDebugKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCDebugKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
